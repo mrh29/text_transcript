@@ -178,6 +178,7 @@ int main(int argc, char* argv[]) {
         printf("SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
         sqlite3_close(db);
+        fclose(f);
         return 1;
     }
 
@@ -202,6 +203,7 @@ int main(int argc, char* argv[]) {
         printf("SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
         sqlite3_close(db);
+        fclose(f);
         return 1;
     }
 
@@ -219,6 +221,7 @@ int main(int argc, char* argv[]) {
         printf("SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
         sqlite3_close(db);
+        fclose(f);
         return 1;
     }
 
@@ -237,6 +240,7 @@ int main(int argc, char* argv[]) {
         printf("SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
         sqlite3_close(db);
+        fclose(f);
         return 1;
     }
 
@@ -251,6 +255,7 @@ int main(int argc, char* argv[]) {
             printf("SQL error: %s\n", zErrMsg);
             sqlite3_free(zErrMsg);
             sqlite3_close(db);
+            fclose(f);
             return 1;
         }
     }
@@ -265,6 +270,7 @@ int main(int argc, char* argv[]) {
             printf("SQL error: %s\n", zErrMsg);
             sqlite3_free(zErrMsg);
             sqlite3_close(db);
+            fclose(f);
             return 1;
         }
     }
