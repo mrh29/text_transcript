@@ -1,4 +1,10 @@
-// Copyright 2022, Michael Horton
+/*****************************************************************************************
+ * text_processing.c
+ *  This file outputs a transcript of text conversations between you and
+ *  another person using Apple's message database and sqlite3
+ *
+ *  Copyright 2022, Michael Horton
+ ****************************************************************************************/
 #include <stdio.h>
 #include <sqlite3.h>
 #include <stdint.h>
